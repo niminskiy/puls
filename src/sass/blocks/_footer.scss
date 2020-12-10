@@ -31,11 +31,6 @@
             color: #fff;
         }
     }
-    &__social {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     &__social-item {
         display: flex;
         justify-content: center;
@@ -48,9 +43,15 @@
         img {
             height: 27px;
         }
-        transition: .5s all;
-        &:hover {
-            background-color: #fb9292;
-        }
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    iframe {
+        width: 100%;
+        height: 630px;
+        border: none;
     }
 }
