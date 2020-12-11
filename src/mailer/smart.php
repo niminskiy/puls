@@ -21,6 +21,8 @@ $mail->Port = 465;                                    // TCP port to connect to
 $mail->setFrom('s.niminskiy@gmail.com', 'Pulse');   // От кого письмо 
 $mail->addAddress('s.niminskiy@gmail.com');     // Add a recipient
 $mail->addAddress('s.niminskiy@mail.ru');               // Name is optional
+// $mail->addAddress('admin@niminskiy.ru');               // Name is optional
+// $mail->addAddress('niminskiy@niminskiy.ru');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
