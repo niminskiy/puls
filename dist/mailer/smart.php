@@ -11,18 +11,18 @@ $mail->CharSet = 'utf-8';
 // $mail->SMTPDebug = 3;                             // Enable verbose debug output
 
 $mail->isSMTP();                                     // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';                        // Specify main and backup SMTP servers
+$mail->Host = 'smtp.mail.ru';                        // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                              // Enable SMTP authentication
-$mail->Username = 's.niminskiy';             // Наш логин
+$mail->Username = 's.niminskiy@mail.ru';             // Наш логин
 $mail->Password = '1HJ39B6N';                         // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('s.niminskiy@gmail.com', 'Pulse');       // От кого письмо 
+$mail->setFrom('s.niminskiy@mail.ru', 'Pulse');       // От кого письмо 
 $mail->addAddress('s.niminskiy@gmail.com');           // Add a recipient
 $mail->addAddress('s.niminskiy@mail.ru');             // Name is optional
-$mail->addAddress('admin@niminskiy.ru');               // Name is optional
-$mail->addAddress('niminskiy@niminskiy.ru');           // Name is optional
+// $mail->addAddress('admin@niminskiy.ru');               // Name is optional
+// $mail->addAddress('niminskiy@niminskiy.ru');           // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
