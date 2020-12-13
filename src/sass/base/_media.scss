@@ -11,45 +11,29 @@
 }
 	
 @media (max-width: 768px) {
-	.container {
-		width: 90%;
-	}
 	.header {
-		flex-direction: column;
-		&__contacts {
-			justify-content: center;
-		}
-		&__official {
-			margin-top: 20px;
-		}
-		&__contacts {
-			margin-top: 20px;
-			align-items: center;
-		}
-		&__phone {
-			margin-bottom: 15px;
-		}	
-	}.promo {
-		padding: 30px 0 60px 0;
-		.header {
+		padding: 40px 0 60px 0;
+		.promo {
 			flex-direction: column;
-			&__official {
-				margin-top: 16px;
-			}
 			&__contacts {
-				margin-top: 10px;
+				justify-content: center;
 			}
-		}
-		&__wrapper {
-			align-items: center;
-			margin-top: 80px;
-			&_link {
+			&__official {
 				margin-top: 20px;
 			}
-			text-align: center;
+			&__contacts {
+				margin-top: 20px;
+				align-items: center;
+			}
+			&__phone {
+				margin-bottom: 15px;
+			}	
 		}
-		&__link {
-			margin-top: 30px;
+		.offer {
+			align-items: center;
+				margin-top: 80px;
+				text-align: center;
+				
 		}
 	}
 	.advantages {
@@ -88,11 +72,11 @@
 
 @media (max-width: 576px) {
 	.container {
-		width: 80%;
+		width: 90%;
 	}
-	.promo {
-		padding: 30px 0 60px 0;
-		.header {
+	.header {
+		padding: 40px 0 60px 0;
+		.promo {
 			flex-direction: column;
 			&__official {
 				margin-top: 16px;
@@ -101,34 +85,32 @@
 				margin-top: 10px;
 			}
 		}
-		&__wrapper {
+		.offer {
 			align-items: center;
 			margin-top: 40px;
-			&_link {
+			text-align: center;
+			&__subheader {
 				margin-top: 20px;
 			}
-			text-align: center;
-		}
-		&__subheader {
-			margin-top: 20px;
-		}
-		&__icons {
-			flex-direction: column;
-			align-items: center;
-			margin-top: 20px;
-		}
-		&__icon {
-			margin-bottom: 20px;
-		}
-		.button_main {
-			margin-top: 20px;
+			&__icons {
+				width: 100%;
+				flex-direction: column;
+				align-items: center;
+				margin-top: 20px;
+			}
+			&__icon {
+				margin-bottom: 20px;
+			}
+			.button_main {
+				margin-top: 20px;
+			}
 		}
 	}
 	.title_left {
 		font-size: 30px;
 	}
 	.catalog {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 		&__tabs {
 			flex-direction: column;
@@ -140,8 +122,10 @@
 	.catalog-item {
 		width: 100%;
 		&__footer {
-			justify-content: space-around;
-			padding: 40px 10px;
+			flex-direction: column;
+		}
+		&__prices {
+			margin-bottom: 30px;
 		}
 	}
 	.feed {
@@ -163,6 +147,25 @@
 		&__text {
 			padding: 0;
 			margin: 0;
+		}
+	}
+	.modal{
+		width: 350px;
+		padding:  40px 20px;
+		&-mini {
+			width: 350px;
+		}
+	}
+	.footer {
+		position: static;
+		&__info {
+			padding: 30px 0 0;
+		}
+		&__adress {
+			margin-bottom: 30px;
+		}
+		&__phone {
+			margin-bottom: 30px;
 		}
 	}
 }

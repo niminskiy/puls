@@ -15,8 +15,9 @@
     margin: 0 auto;
 }
 
+@import 'blocks/header';
 @import 'blocks/promo';
-@import 'blocks/header.scss';
+@import 'blocks/offer';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
 @import 'blocks/titles';

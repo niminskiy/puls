@@ -47,9 +47,8 @@
     }
     &-item {
         width: 300px;
-        min-height: 440px;
         border: 2px solid #e8e8e8;
-        padding: 20px 20px 26px 20px;
+        padding: 30px;
         overflow: hidden;
         margin-bottom: 20px;
         &__img {
@@ -109,7 +108,7 @@
         }
         &__wrapper {
             display: flex;
-            width: calc(200% + 40px);
+            width: calc(200% + 20px);
         }
         &__content {
             width: 50%;

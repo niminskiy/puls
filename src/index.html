@@ -9,53 +9,54 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section id="up" class="promo">
+    <header id="up" class="header">
         <div class="container">
-            <header class="header">
-                <a href="#" class="header__logo">
+            <div class="promo">
+                <a href="#" class="promo__logo">
                     <img src="icons/logo.png" alt="logo">
                 </a>
-                <div class="header__official">
+                <div class="promo__official">
                     Официальный представитель
                     <span>Garmin, Polar, Suunto</span>
                 </div>
-                <div class="header__contacts">
-                    <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
+                <div class="promo__contacts">
+                    <a href="tel:+74999228974" class="promo__phone">+7 (499) 922-89-74</a>
                     <button data-modal="consultation" class="button">заказать звонок</button>
                 </div>
-            </header>
+            </div>
 
-            <div class="promo__wrapper">
-                <h1 class="promo__header">Подбор пульсометра</h1>
-                <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
+            <div class="offer">
+                <h1 class="offer__header">Подбор пульсометра</h1>
+                <h2 class="offer__subheader">с учётом Вашего уровня подготовки</h2>
 
-                <div class="promo__icons">
-                    <div class="promo__icon">
+                <div class="offer__icons">
+                    <div class="offer__icon">
                         <img src="icons/main_screen/timer.png" alt="timer">
                         Время подбора:
                         10 минут
                     </div>
-                    <div class="promo__icon">
+                    <div class="offer__icon">
                         <img src="icons/main_screen/hand-cart.png" alt="hand-cart">
                         Бесплатная
                         доставка
                     </div>
-                    <div class="promo__icon">
+                    <div class="offer__icon">
                         <img src="icons/main_screen/messages.png" alt="messages">
-                        Ответим
-                        на все вопросы
+                        <div class="offer__note">
+                            Ответим на все вопросы
+                        </div>
                     </div>
                 </div>
 
                 <button data-modal="consultation" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
-                <div class="promo__link">
+                <div class="offer__link">
                     или
                     <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
                 </div>
             </div>
             
         </div>
-    </section>
+    </header>
 
     <section class="advantages">
         <div class="container">
@@ -89,7 +90,7 @@
                     <div class="advantages__descr">
                         Помогаем с обучением 
                         правильной технике бега!<br>
-                        Дружим с крупнейшей школой бега в России - 
+                        Дружим с крупнейшей школой бега в России<br>
                         <a href="#">I LOVE RUNNING.</a>
                     </div>
                 </div>
@@ -543,7 +544,6 @@
     <a href="#up" class="pageup">
         <img src="icons/up.svg" alt="up">
     </a>
-    
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
